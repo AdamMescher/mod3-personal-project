@@ -1,6 +1,6 @@
 @import './components/AddItem/AddItem.scss';
 @import './components/Dash/Dash.scss';
-@import './components/Header/Header.scss';
+@import './components/HeaderNav/HeaderNav.scss';
 @import './components/HouseList/HouseList.scss';
 @import './components/Item/Item.scss';
 @import './components/LogIn/LogIn.scss';

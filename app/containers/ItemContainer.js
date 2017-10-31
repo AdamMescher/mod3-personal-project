@@ -1,15 +1,15 @@
-import Item from '../components/Item.jsx';
+import Item from '../components/Item/Item.js';
 import { connect, bindActionCreators } from 'react-redux';
-import * as actions from '../actions';
+import { markBillPaid } from '../actions/actions.js';
 
 const mapStateToProps =  store => ({
-  user: store.currentUser,
-  house: store.usersHouse,
-  bulletins: store.bulletins,
-  bills: store.bills,
-  chores: store.chores
+  usersHouse: store.usersHouse
 });
 
-const mapDispatchToProps = dispatch => bindActionCreators(actions, dispatch);
+const mapDispatchToProps = dispatch => ({
+  markBillPaid: (billId, userId, usersHouse) => {
+    dispatch(markBillPaid(billId, userId, usersHouse));
+  }
+});
 
 export default connect(mapStateToProps, mapDispatchToProps)(Item);

@@ -1,12 +1,12 @@
 import Routes from '../components/Routes.jsx';
-import { connect, bindActionCreators } from 'react-redux';
-import * as actions from '../actions';
+import { connect } from 'react-redux';
+import * as actions from '../actions/actions.js';
 
 const mapStateToProps =  store => ({
-  user: store.currentUser,
-  house: store.usersHouse
+  // user: store.currentUser,
+  usersHouse: store.usersHouse
 });
 
-const mapDispatchToProps = dispatch => bindActionCreators(actions, dispatch);
+const mapDispatchToProps = dispatch => ({});
 
 export default connect(mapStateToProps, mapDispatchToProps)(Routes);

@@ -1,0 +1,765 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderNav should match snap 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <HeaderNav
+    currentUser={
+      Object {
+        "id": "abc",
+        "name": "Lola",
+      }
+    }
+    leaveHouse={[Function]}
+    signOut={[Function]}
+    usersHouse={
+      Object {
+        "houseCode": "6666",
+        "houseKey": "abc",
+        "houseName": "fake house",
+        "users": Array [
+          Object {
+            "id": "abc",
+            "name": "Lola",
+          },
+        ],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Link
+          replace={false}
+          to="/"
+        >
+          <h1>
+            Tribe
+          </h1>
+        </Link>,
+        <h3>
+          A Communal Living Management App
+        </h3>,
+        <div
+          className="user-stuff"
+        >
+          <p
+            className="greeting"
+          >
+            Welcome to fake house,  Lola.
+          </p>
+          <button
+            onClick={[Function]}
+          >
+            Leave House
+          </button>
+          <button
+            onClick={[Function]}
+          >
+            Sign Out
+          </button>
+        </div>,
+        <div>
+          <Link
+            replace={false}
+            to="/summary"
+          >
+            House Summary
+          </Link>
+          <Link
+            replace={false}
+            to="/bulletins"
+          >
+            House Bulletins
+          </Link>
+          <Link
+            replace={false}
+            to="/bills"
+          >
+            House Bills
+          </Link>
+          <Link
+            replace={false}
+            to="/chores"
+          >
+            House Chores
+          </Link>
+          <Link
+            replace={false}
+            to="/bills/user"
+          >
+            My Bills
+          </Link>
+          <Link
+            replace={false}
+            to="/chores/user"
+          >
+            My Chores
+          </Link>
+          <div
+            className="leave-house-div"
+            onClick={[Function]}
+          >
+            Leave House
+          </div>
+          <div
+            className="signout-div"
+            onClick={[Function]}
+          >
+            Sign Out
+          </div>
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "children": <h1>
+            Tribe
+          </h1>,
+          "replace": false,
+          "to": "/",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Tribe",
+          },
+          "ref": null,
+          "rendered": "Tribe",
+          "type": "h1",
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "A Communal Living Management App",
+        },
+        "ref": null,
+        "rendered": "A Communal Living Management App",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <p
+              className="greeting"
+            >
+              Welcome to fake house,  Lola.
+            </p>,
+            <button
+              onClick={[Function]}
+            >
+              Leave House
+            </button>,
+            <button
+              onClick={[Function]}
+            >
+              Sign Out
+            </button>,
+          ],
+          "className": "user-stuff",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Welcome to fake house,  Lola.",
+              "className": "greeting",
+            },
+            "ref": null,
+            "rendered": "Welcome to fake house,  Lola.",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Leave House",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Leave House",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Sign Out",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Sign Out",
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Link
+              replace={false}
+              to="/summary"
+            >
+              House Summary
+            </Link>,
+            <Link
+              replace={false}
+              to="/bulletins"
+            >
+              House Bulletins
+            </Link>,
+            <Link
+              replace={false}
+              to="/bills"
+            >
+              House Bills
+            </Link>,
+            <Link
+              replace={false}
+              to="/chores"
+            >
+              House Chores
+            </Link>,
+            <Link
+              replace={false}
+              to="/bills/user"
+            >
+              My Bills
+            </Link>,
+            <Link
+              replace={false}
+              to="/chores/user"
+            >
+              My Chores
+            </Link>,
+            <div
+              className="leave-house-div"
+              onClick={[Function]}
+            >
+              Leave House
+            </div>,
+            <div
+              className="signout-div"
+              onClick={[Function]}
+            >
+              Sign Out
+            </div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": "House Summary",
+              "replace": false,
+              "to": "/summary",
+            },
+            "ref": null,
+            "rendered": "House Summary",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": "House Bulletins",
+              "replace": false,
+              "to": "/bulletins",
+            },
+            "ref": null,
+            "rendered": "House Bulletins",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": "House Bills",
+              "replace": false,
+              "to": "/bills",
+            },
+            "ref": null,
+            "rendered": "House Bills",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": "House Chores",
+              "replace": false,
+              "to": "/chores",
+            },
+            "ref": null,
+            "rendered": "House Chores",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": "My Bills",
+              "replace": false,
+              "to": "/bills/user",
+            },
+            "ref": null,
+            "rendered": "My Bills",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": "My Chores",
+              "replace": false,
+              "to": "/chores/user",
+            },
+            "ref": null,
+            "rendered": "My Chores",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Leave House",
+              "className": "leave-house-div",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Leave House",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Sign Out",
+              "className": "signout-div",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Sign Out",
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Link
+            replace={false}
+            to="/"
+          >
+            <h1>
+              Tribe
+            </h1>
+          </Link>,
+          <h3>
+            A Communal Living Management App
+          </h3>,
+          <div
+            className="user-stuff"
+          >
+            <p
+              className="greeting"
+            >
+              Welcome to fake house,  Lola.
+            </p>
+            <button
+              onClick={[Function]}
+            >
+              Leave House
+            </button>
+            <button
+              onClick={[Function]}
+            >
+              Sign Out
+            </button>
+          </div>,
+          <div>
+            <Link
+              replace={false}
+              to="/summary"
+            >
+              House Summary
+            </Link>
+            <Link
+              replace={false}
+              to="/bulletins"
+            >
+              House Bulletins
+            </Link>
+            <Link
+              replace={false}
+              to="/bills"
+            >
+              House Bills
+            </Link>
+            <Link
+              replace={false}
+              to="/chores"
+            >
+              House Chores
+            </Link>
+            <Link
+              replace={false}
+              to="/bills/user"
+            >
+              My Bills
+            </Link>
+            <Link
+              replace={false}
+              to="/chores/user"
+            >
+              My Chores
+            </Link>
+            <div
+              className="leave-house-div"
+              onClick={[Function]}
+            >
+              Leave House
+            </div>
+            <div
+              className="signout-div"
+              onClick={[Function]}
+            >
+              Sign Out
+            </div>
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": <h1>
+              Tribe
+            </h1>,
+            "replace": false,
+            "to": "/",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Tribe",
+            },
+            "ref": null,
+            "rendered": "Tribe",
+            "type": "h1",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "A Communal Living Management App",
+          },
+          "ref": null,
+          "rendered": "A Communal Living Management App",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p
+                className="greeting"
+              >
+                Welcome to fake house,  Lola.
+              </p>,
+              <button
+                onClick={[Function]}
+              >
+                Leave House
+              </button>,
+              <button
+                onClick={[Function]}
+              >
+                Sign Out
+              </button>,
+            ],
+            "className": "user-stuff",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Welcome to fake house,  Lola.",
+                "className": "greeting",
+              },
+              "ref": null,
+              "rendered": "Welcome to fake house,  Lola.",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Leave House",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Leave House",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Sign Out",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Sign Out",
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Link
+                replace={false}
+                to="/summary"
+              >
+                House Summary
+              </Link>,
+              <Link
+                replace={false}
+                to="/bulletins"
+              >
+                House Bulletins
+              </Link>,
+              <Link
+                replace={false}
+                to="/bills"
+              >
+                House Bills
+              </Link>,
+              <Link
+                replace={false}
+                to="/chores"
+              >
+                House Chores
+              </Link>,
+              <Link
+                replace={false}
+                to="/bills/user"
+              >
+                My Bills
+              </Link>,
+              <Link
+                replace={false}
+                to="/chores/user"
+              >
+                My Chores
+              </Link>,
+              <div
+                className="leave-house-div"
+                onClick={[Function]}
+              >
+                Leave House
+              </div>,
+              <div
+                className="signout-div"
+                onClick={[Function]}
+              >
+                Sign Out
+              </div>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": "House Summary",
+                "replace": false,
+                "to": "/summary",
+              },
+              "ref": null,
+              "rendered": "House Summary",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": "House Bulletins",
+                "replace": false,
+                "to": "/bulletins",
+              },
+              "ref": null,
+              "rendered": "House Bulletins",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": "House Bills",
+                "replace": false,
+                "to": "/bills",
+              },
+              "ref": null,
+              "rendered": "House Bills",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": "House Chores",
+                "replace": false,
+                "to": "/chores",
+              },
+              "ref": null,
+              "rendered": "House Chores",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": "My Bills",
+                "replace": false,
+                "to": "/bills/user",
+              },
+              "ref": null,
+              "rendered": "My Bills",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": "My Chores",
+                "replace": false,
+                "to": "/chores/user",
+              },
+              "ref": null,
+              "rendered": "My Chores",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Leave House",
+                "className": "leave-house-div",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Leave House",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Sign Out",
+                "className": "signout-div",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Sign Out",
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
